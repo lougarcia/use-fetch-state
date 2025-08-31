@@ -8,13 +8,6 @@ A Nuxt (only) composable for managing fetch state using useFetch with auto-impor
 npm install @lgarciawebdev/use-fetch-state
 ```
 
-### With Nuxt auto-imports
-```
-export default defineNuxtConfig({
-    modules: ['@lgarciawebdev/use-fetch-state']
-})
-```
-
 ### Inside components
 ```
 <script setup lang="ts">
