@@ -1,5 +1,5 @@
 # Introduction
-A Nuxt (only) composable for managing fetch state using useFetch with auto-import and type support.
+A Nuxt (only) composable for managing fetch state using `useFetch` with auto-import and type support.
 
 ## Usage
 
