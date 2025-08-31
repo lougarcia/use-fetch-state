@@ -1,6 +1,6 @@
 {
     "name": "@lgarciawebdev/use-fetch-state",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A Nuxt composable for managing fetch state using useFetch with auto-import and type support.",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
@@ -31,7 +31,7 @@
     "peerDependencies": {
         "vue": "^3.0.0",
         "@nuxt/kit": "^3.0.0",
-        "nuxt": "^3.0.0"
+        "nuxt": "^4.0.0"
     },
     "devDependencies": {
         "typescript": "^5.0.0",
