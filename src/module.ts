@@ -6,11 +6,14 @@ export default defineNuxtModule({
         name: '@lgarciawebdev/use-fetch-state',
         configKey: 'useFetchState'
     },
+    defaults: {
+        autoImport: false,
+    },
     setup(_options: Record<string, unknown>, nuxt: Nuxt) {
         // Auto-import composable
         addImports({
-        name: 'useFetchState',
-        from: '@lgarciawebdev/use-fetch-state'
+            name: 'useFetchState',
+            from: '@lgarciawebdev/use-fetch-state'
         })
 
         // Add global type for auto-import in TS
