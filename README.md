@@ -1,5 +1,10 @@
 ## Usage
 
+### Installation
+```
+npm install @louanthony/use-fetch-state
+```
+
 ### With Nuxt auto-imports
 ```
 export default defineNuxtConfig({

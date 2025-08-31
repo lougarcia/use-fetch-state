@@ -1,5 +1,18 @@
 import { ref } from 'vue'
-import { useFetch, type UseFetchOptions } from '#app'
+import { useFetch } from '#imports'
+
+export interface UseFetchOptions<T> {
+  method?: string
+  body?: any
+  headers?: Record<string, string>
+  query?: Record<string, any>
+  key?: string
+  default?: () => T
+  lazy?: boolean
+  immediate?: boolean
+  server?: boolean
+  transform?: (input: any) => T
+}
 
 export function useFetchState<T>(
   url: string,
