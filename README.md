@@ -50,8 +50,9 @@ watch(status, () => {
 async function onError(event: FormErrorEvent) {
     console.log("ERROR", event?.errors)
 }
-
 </script>
+```
+```
 <template>
     <UForm :schema="schema" :state="state" @submit="actionFn" @error="onError">
     ...
