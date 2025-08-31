@@ -1,6 +1,6 @@
 {
     "name": "@lgarciawebdev/use-fetch-state",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A Nuxt composable for managing fetch state using useFetch with auto-import and type support.",
     "main": "dist/index.cjs",
     "module": "dist/index.mjs",
@@ -37,5 +37,9 @@
         "typescript": "^5.0.0",
         "nuxt": "^3.0.0",
         "@nuxt/schema": "^3.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lougarcia/use-fetch-state.git"
     }
 }
