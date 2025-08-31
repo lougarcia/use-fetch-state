@@ -1,0 +1,39 @@
+{
+    "name": "@lougarcia/use-fetch-state",
+    "version": "1.0.0",
+    "description": "A Nuxt composable for managing fetch state using useFetch with auto-import and type support.",
+    "main": "dist/index.cjs",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        },
+        "./module": "./dist/module.mjs"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [
+        "nuxt",
+        "vue",
+        "useFetch",
+        "composable",
+        "auto-import",
+        "typescript"
+    ],
+    "author": "Lou Anthony Garcia",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "vue": "^3.0.0",
+        "#app": "*",
+        "@nuxt/kit": "^3.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}
