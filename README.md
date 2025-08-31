@@ -2,7 +2,7 @@
 
 ### Installation
 ```
-npm install @louanthony/use-fetch-state
+npm install @lgarciawebdev/use-fetch-state
 ```
 
 ### With Nuxt auto-imports
