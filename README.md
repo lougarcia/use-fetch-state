@@ -30,7 +30,7 @@ async function onSubmit(event: Event) {
 <script setup lang="ts">
 const { actionFn, data, status, error } = useFetchState('/api/modules', {
     method: 'POST',
-    body: { foo: 'bar' }
+    body: state.value
 })
 
 watch(status, () => {
