@@ -9,7 +9,7 @@ npm install @lgarciawebdev/use-fetch-state
 ```
 
 ### Inside components
-```
+```typescript
 <script setup lang="ts">
 const { actionFn, data, status, error } = useFetchState('/api/modules', {
     method: 'POST',
@@ -26,7 +26,7 @@ async function onSubmit(event: Event) {
 ```
 
 ### Or if using NuxtUI
-```
+```typescript
 <script setup lang="ts">
 const { actionFn, data, status, error } = useFetchState('/api/modules', {
     method: 'POST',
@@ -52,7 +52,7 @@ async function onError(event: FormErrorEvent) {
 }
 </script>
 ```
-```
+```typescript
 <template>
     <UForm :schema="schema" :state="state" @submit="actionFn" @error="onError">
     ...
